@@ -1,0 +1,23 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.package-title-image {
+  transition: all 0.3s;
+}
+.package-title-image:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+  .slider-content h1 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .slider-content p,
+  .slider-content button {
+    display: none;
+  }
+}
