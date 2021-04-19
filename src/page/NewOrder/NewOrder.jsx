@@ -79,11 +79,11 @@ const NewOrder = () => {
   return (
     <div className="">
       <div className="d-flex row g-0">
-        <div className="col-md-3 bg-dark" style={{ minHeight: "100vh" }}>
+        <div className="col-md-3 bg-info" style={{ minHeight: "100vh" }}>
           <DashboardSideNav active="new-order" />
         </div>
         <div className="col-md-9">
-          <DashboardTopNav pageTitle="Buy Package" />
+          <DashboardTopNav pageTitle="Booking Service / Package" />
           <div className="col-md-12 p-5">
             <div className="row">
               <div className="col-md-6">

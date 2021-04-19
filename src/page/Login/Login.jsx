@@ -59,7 +59,7 @@ const Login = () => {
         style={{ height: "80vh" }}
       >
         <div className="col-md-6 text-center">
-          <h3>Welcome to Hosting Hero</h3>
+          <h3>Please Login</h3>
           <button onClick={signInWithGoogle} className="btn btn-primary">
             <span>
               <i class="fab fa-google"></i>

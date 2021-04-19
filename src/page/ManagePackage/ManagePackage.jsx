@@ -34,7 +34,7 @@ const ManagePackage = () => {
         setShowAlert({
           status: true,
           title: "Success",
-          text: "Package deleted successfully",
+          text: "Service deleted successfully",
           type: "success",
         });
         setReload(true);
@@ -54,11 +54,11 @@ const ManagePackage = () => {
   return (
     <div className="">
       <div className="d-flex row g-0">
-        <div className="col-md-3 bg-dark" style={{ minHeight: "100vh" }}>
+        <div className="col-md-3 bg-info" style={{ minHeight: "100vh" }}>
           <DashboardSideNav active="manage-package" navType="admin" />
         </div>
         <div className="col-md-9">
-          <DashboardTopNav pageTitle="Manage Package" />
+          <DashboardTopNav pageTitle="Manage Package / Service" />
           <div className="col-md-12 p-5">
             <table className="table table-hover">
               <thead>

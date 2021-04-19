@@ -27,11 +27,11 @@ const MyOrder = () => {
   return (
     <div className="">
       <div className="d-flex row g-0">
-        <div className="col-md-3 bg-dark" style={{ minHeight: "100vh" }}>
+        <div className="col-md-3 bg-info" style={{ minHeight: "100vh" }}>
           <DashboardSideNav active="my-order" />
         </div>
         <div className="col-md-9">
-          <DashboardTopNav pageTitle="Order List" />
+          <DashboardTopNav pageTitle="Booking / Order List" />
           <div className="col-md-12 p-5">
             <div className="row">
               {orderedData?.map((row, i) => (

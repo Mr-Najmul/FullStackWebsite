@@ -6,7 +6,7 @@ const DashboardSideNav = ({ active, navType }) => {
     <nav className="nav flex-column">
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "new-order" ? "bg-success" : "bg-Warning"
+          active === "new-order" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/"
@@ -18,7 +18,7 @@ const DashboardSideNav = ({ active, navType }) => {
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "my-order" ? "bg-success" : "bg-Warning"
+          active === "my-order" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/order"
@@ -30,7 +30,7 @@ const DashboardSideNav = ({ active, navType }) => {
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "write-review" ? "bg-success" : "bg-Warning"
+          active === "write-review" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/order"
@@ -42,7 +42,7 @@ const DashboardSideNav = ({ active, navType }) => {
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "my-review" ? "bg-success" : "bg-Warning"
+          active === "my-review" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/myReview"
@@ -59,7 +59,7 @@ const DashboardSideNav = ({ active, navType }) => {
     <nav className="nav flex-column">
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "all-order" ? "bg-success" : "bg-Warning"
+          active === "all-order" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/admin/dashboard"
@@ -71,7 +71,7 @@ const DashboardSideNav = ({ active, navType }) => {
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "add-package" ? "bg-success" : "bg-Warning"
+          active === "add-package" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/admin/newPackage"
@@ -79,11 +79,11 @@ const DashboardSideNav = ({ active, navType }) => {
         <span className="px-3">
           <i className="far fa-plus-square"></i>
         </span>
-        Add New Service
+        Add New Package / Service
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "new-admin" ? "bg-success" : "bg-Warning"
+          active === "new-admin" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/admin/newAdmin"
@@ -95,7 +95,7 @@ const DashboardSideNav = ({ active, navType }) => {
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "manage-package" ? "bg-success" : "bg-Warning"
+          active === "manage-package" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/admin/managePackage"
@@ -103,11 +103,11 @@ const DashboardSideNav = ({ active, navType }) => {
         <span className="px-3">
           <i className="fas fa-th"></i>
         </span>
-        Manage Services
+        Manage Packages / Services
       </Link>
       <Link
         className={`nav-link text-light border-bottom ${
-          active === "admin-list" ? "bg-success" : "bg-Warning"
+          active === "admin-list" ? "bg-success" : "bg-warning"
         }`}
         aria-current="page"
         to="/admin/adminList"
@@ -122,7 +122,7 @@ const DashboardSideNav = ({ active, navType }) => {
 
   return (
     <div className="">
-      <nav className="navbar navbar-dark bg-dark border-bottom">
+      <nav className="navbar navbar-dark bg-info border-bottom">
         <div className="container-fluid justify-content-center">
           <a className="navbar-brand " href="/">
             MA Computer

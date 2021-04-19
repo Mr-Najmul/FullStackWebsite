@@ -54,14 +54,14 @@ const ServicePlan = () => {
                   />
                   <h5 className="card-title pt-3">{row.name}</h5>
                   <h3>
-                    $ {row.price} <span className="text-muted">/year</span>
+                    $ {row.price} <span className="text-muted"></span>
                   </h3>
                   <p className="card-text">{row.description}</p>
                   <Link
                     to={`/newOrder/${row._id}`}
                     className="btn btn-outline-light rounded-0"
                   >
-                    BYU NOW
+                    BOOK NOW
                   </Link>
                 </div>
               </div>
